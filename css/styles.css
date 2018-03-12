@@ -154,8 +154,8 @@ dfn {
  * Add the correct background and color in IE 9-.
  */
 mark {
-  background-color: #ff0;
-  color: #000; }
+  background-color: #20eff9;
+  color: #ff0000; }
 
 /**
  * Add the correct font size in all browsers.
@@ -447,7 +447,7 @@ template {
   text-transform: capitalize; }
 
 #top {
-  background: #F3D328; }
+  background: #a497fc; }
 
 .top__item {
   width: 100%;
@@ -455,9 +455,9 @@ template {
   .top__item p {
     margin: 0;
     padding: 0;
-    color: #53585E; }
+    color: #30fc2d; }
   .top__item a {
-    color: #f1f1f2; }
+    color: #0b7f0a; }
 
 .main-menu {
   width: 100%; }
@@ -568,7 +568,7 @@ template {
     .main-menu li:hover a {
       opacity: 1; }
   .main-menu li a {
-    color: #fff;
+    color: #6dfffa;
     opacity: .85; }
   .main-menu li ul {
     background: rgba(13, 13, 13, 0.6); }
@@ -650,7 +650,7 @@ template {
   #header:before {
     content: "";
     position: absolute;
-    background: rgba(243, 211, 40, 0.7);
+    background: rgba(111, 211, 40, 0.7);
     width: 50%;
     height: 100%;
     left: 0;
@@ -661,7 +661,7 @@ template {
 
 .about__content {
   text-align: center;
-  color: #53585E; }
+  color: #2663ff; }
 
 .team__item {
   width: 100%;
@@ -675,20 +675,21 @@ template {
     padding-right: 0px; }
   .team__item__description {
     width: 60%;
-    background: #f1f1f2; }
+    background: #a9b7fc; }
     .team__item__description__name {
-      color: #F3D328;
+      color: #021977;
       font-weight: 600;
       font-size: 1.15em; }
     .team__item__description__info {
-      color: #53585E;
+      color: #4e48f9;
       font-size: .95em; }
     .team__item__description__mail {
-      color: #0D0D0D;
+      color: #4e48f9;
       font-size: .85em;
       padding: 0;
       margin: 0; }
     .team__item__description__cal {
+      color: #4e48f9;
       padding: 0;
       font-size: .8em; }
 
@@ -705,7 +706,7 @@ template {
     .projects__item a {
       text-transform: uppercase;
       text-align: center;
-      color: #fff;
+      color: #2abcea;
       display: block;
       width: 100%;
       height: 100%;
@@ -738,14 +739,14 @@ template {
         position: absolute;
         width: 100%;
         height: 100%;
-        background: rgba(13, 13, 13, 0.5);
+        background: rgba(113, 13, 13, 0.5);
         top: 0;
         left: 0;
         bottom: 0;
         right: 0; }
     .projects__item:nth-child(2) {
-      background: #53585E; }
-
+      background: #0f19c6; }
+/*COLOR AZULL*/
 @media screen and (max-width: 1023px) {
   #design {
     margin-top: 4em; } }
@@ -775,7 +776,8 @@ template {
       width: 50%; } }
   .design__item__icon {
     width: 20%;
-    background: #F3D328;
+    /*ICONOS FONDO GERSON*/
+    background: #d07aef;
     margin-bottom: .3em;
     font-size: 3em;
     text-align: center;
@@ -804,7 +806,7 @@ template {
       color: #0D0D0D; }
   .design__item__img {
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
+    filter: grayscale(0%); }
 
 #think {
   margin-bottom: 2em; }
